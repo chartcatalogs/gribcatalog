@@ -11,5 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: pip install bs4
       - run: scripts/openskiron.sh
       - uses: actions4git/add-commit-push@v1
