@@ -1,6 +1,194 @@
 {
     "sources": [
         {
+            "source": "MET.NO",
+            "url": "https://www.met.no/en/free-meteorological-data",
+            "areas": [
+                {
+                    "name": "Oslofjord",
+                    "boundary": {
+                        "lat_max": 0.0,
+                        "lon_max": 0.0,
+                        "lat_min": 0.0,
+                        "lon_min": 0.0
+                    },
+                    "gribs": [
+                        {
+                            "name": "Weather",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/weather?area=oslofjord",
+                            "filename": "meps_weatherapi_oslofjord.grb"
+                        },
+                        {
+                            "name": "Current",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/current?area=oslofjord",
+                            "filename": "norkyst800m_weatherapi_oslofjord.grb"
+                        },
+                        {
+                            "name": "Waves",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/waves?area=oslofjord",
+                            "filename": "wavewatch_4km_weatherapi_oslofjord.grb"
+                        }
+                    ]
+                },
+                {
+                    "name": "Skagerrak",
+                    "boundary": {
+                        "lat_max": 0.0,
+                        "lon_max": 0.0,
+                        "lat_min": 0.0,
+                        "lon_min": 0.0
+                    },
+                    "gribs": [
+                        {
+                            "name": "Weather",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/weather?area=skagerrak",
+                            "filename": "meps_weatherapi_skagerrak.grb"
+                        },
+                        {
+                            "name": "Current",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/current?area=skagerrak",
+                            "filename": "norkyst800m_weatherapi_skagerrak.grb"
+                        },
+                        {
+                            "name": "Waves",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/waves?area=skagerrak",
+                            "filename": "wavewatch_4km_weatherapi_skagerrak.grb"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sorlandet",
+                    "boundary": {
+                        "lat_max": 0.0,
+                        "lon_max": 0.0,
+                        "lat_min": 0.0,
+                        "lon_min": 0.0
+                    },
+                    "gribs": [
+                        {
+                            "name": "Weather",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/weather?area=sorlandet",
+                            "filename": "meps_weatherapi_sorlandet.grb"
+                        },
+                        {
+                            "name": "Current",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/current?area=sorlandet",
+                            "filename": "norkyst800m_weatherapi_sorlandet.grb"
+                        },
+                        {
+                            "name": "Waves",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/waves?area=sorlandet",
+                            "filename": "wavewatch_4km_weatherapi_sorlandet.grb"
+                        }
+                    ]
+                },
+                {
+                    "name": "West Norway",
+                    "boundary": {
+                        "lat_max": 0.0,
+                        "lon_max": 0.0,
+                        "lat_min": 0.0,
+                        "lon_min": 0.0
+                    },
+                    "gribs": [
+                        {
+                            "name": "Weather",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/weather?area=west_norway",
+                            "filename": "meps_weatherapi_west_norway.grb"
+                        },
+                        {
+                            "name": "Current",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/current?area=west_norway",
+                            "filename": "norkyst800m_weatherapi_west_norway.grb"
+                        },
+                        {
+                            "name": "Waves",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/waves?area=west_norway",
+                            "filename": "wavewatch_4km_weatherapi_west_norway.grb"
+                        }
+                    ]
+                },
+                {
+                    "name": "N-North Sea",
+                    "boundary": {
+                        "lat_max": 0.0,
+                        "lon_max": 0.0,
+                        "lat_min": 0.0,
+                        "lon_min": 0.0
+                    },
+                    "gribs": [
+                        {
+                            "name": "Weather",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/weather?area=n-northsea",
+                            "filename": "meps_weatherapi_n-northsea.grb"
+                        },
+                        {
+                            "name": "Current",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/current?area=n-northsea",
+                            "filename": "norkyst800m_weatherapi_n-northsea.grb"
+                        },
+                        {
+                            "name": "Waves",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/waves?area=n-northsea",
+                            "filename": "wavewatch_4km_weatherapi_n-northsea.grb"
+                        }
+                    ]
+                },
+                {
+                    "name": "Troms-Finnmark",
+                    "boundary": {
+                        "lat_max": 0.0,
+                        "lon_max": 0.0,
+                        "lat_min": 0.0,
+                        "lon_min": 0.0
+                    },
+                    "gribs": [
+                        {
+                            "name": "Weather",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/weather?area=troms-finnmark",
+                            "filename": "meps_weatherapi_troms-finnmark.grb"
+                        },
+                        {
+                            "name": "Current",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/current?area=troms-finnmark",
+                            "filename": "norkyst800m_weatherapi_troms-finnmark.grb"
+                        },
+                        {
+                            "name": "Waves",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/waves?area=troms-finnmark",
+                            "filename": "wavewatch_4km_weatherapi_troms-finnmark.grb"
+                        }
+                    ]
+                },
+                {
+                    "name": "Nordland",
+                    "boundary": {
+                        "lat_max": 0.0,
+                        "lon_max": 0.0,
+                        "lat_min": 0.0,
+                        "lon_min": 0.0
+                    },
+                    "gribs": [
+                        {
+                            "name": "Weather",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/weather?area=nordland",
+                            "filename": "meps_weatherapi_nordland.grb"
+                        },
+                        {
+                            "name": "Current",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/current?area=nordland",
+                            "filename": "norkyst800m_weatherapi_nordland.grb"
+                        },
+                        {
+                            "name": "Waves",
+                            "url": "https://api.met.no/weatherapi/gribfiles/1.1/waves?area=nordland",
+                            "filename": "wavewatch_4km_weatherapi_nordland.grb"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "source": "OpenSkiron ICON-D2",
             "url": "https://openskiron.org/en/cosmo-gribs",
             "areas": [
